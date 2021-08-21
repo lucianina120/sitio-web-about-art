@@ -1,0 +1,63 @@
+
+#sec-bienvenida {
+    background: linear-gradient(180deg,#593196,#754094 27.02%,#a3398a 50.53%,#e94e70 79.42%,#e88580 95.88%);
+}
+#sec-comisiones-recientes{
+    background-color: #2c1643;
+}
+
+h1,h2,p{
+    color: #F2F2F2;
+}
+h1,h2{
+    color: #ffc648;
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 700 !important;
+}
+p{
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 200;
+}
+
+.card{
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 200;
+}
+.card p{
+    color: #000000;
+}
+
+#header img {
+    width: 140px; 
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 62px 0;
+    background-color: #593196;
+}
+div .title{
+    font-weight: 700;
+}
+.footer__txt {
+    color: #F2F2F2;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.footer__redes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+}
+.redes__img {
+    width: 30px;
+    filter: invert(100%);
+}
